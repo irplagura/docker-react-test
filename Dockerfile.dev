@@ -8,3 +8,5 @@ RUN chown -R node:node ./node_modules
 COPY --chown=node:node ./ ./
 
 CMD ["npm", "run", "start"]
+
+
